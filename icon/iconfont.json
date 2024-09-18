@@ -1,0 +1,44 @@
+{
+  "id": "4668314",
+  "name": "还原社交软件",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "41873396",
+      "name": "gengduo",
+      "font_class": "gengduo",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "2742571",
+      "name": "关注",
+      "font_class": "guanzhu",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "4880142",
+      "name": "发布",
+      "font_class": "fabu",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "29656995",
+      "name": "首页",
+      "font_class": "shouye-shouye",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "35217790",
+      "name": "圆形-copy",
+      "font_class": "radio-off",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}

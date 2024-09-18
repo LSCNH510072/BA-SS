@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BA社交软件还原</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url(./icon/iconfont.css);
+    </style>
+  </head>
+
+  <body>
+    <header class="header">
+      <p>图标</p>
+      <p>图标</p>
+      <p>图标</p>
+    </header>
+    <menu class="menu" id="menu">
+      <button class="active">
+        <i class="iconfont icon-shouye-shouye"></i>
+        <i class="iconfont icon-radio-off"></i>
+        <span>首页</span>
+      </button>
+      <button>
+        <i class="iconfont icon-guanzhu"></i>
+        <i class="iconfont icon-radio-off"></i>
+        <span>关注</span>
+      </button>
+      <button>
+        <i class="iconfont icon-fabu"></i>
+        <i class="iconfont icon-radio-off"></i>
+        <span>发布</span>
+      </button>
+      <button>
+        <i class="iconfont icon-gengduo"></i>
+        <i class="iconfont icon-radio-off"></i>
+        <span>通知</span>
+      </button>
+    </menu>
+    <div class="content"></div>
+    <div></div>
+    <script>
+      const menu = document.getElementById("menu");
+
+      menu.onclick = function (e) {
+        if (!e.target.classList.contains("active") && !e.target.classList.contains("menu")) {
+          function removeClass() {
+            menu.querySelectorAll("button").forEach((item) => item.classList.remove("active"));
+          }
+
+          removeClass();
+          if (e.target.tagName === "BUTTON") {
+            e.target.classList.toggle("active");
+          } else {
+            e.target.parentElement.classList.toggle("active");
+          }
+        }
+      };
+    </script>
+  </body>
+</html>

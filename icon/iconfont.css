@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4668314 */
+  /* Color fonts */
+  src: 
+       url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAQAAAwAAAAAB6AAAAOxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIkwjJgZgAFwKhyiFVAE2AiQDQAsiAAQgBYF8ByAb1wXILrBt2JParhMCugHAdwIa2FcInmi/9mZ2dv8dakk1XQQiXkmmmehb/4aGpuili0VCMh96r3yz2XLOSg5StmJO8hRKCghf4HcaYOKJKkHurt/PA+Ag4QADzLgt1L4Qbue5d/GPxhaYluUBZTjHoLlAep/iXhTQns/LugV+fKCnoF7T6aoH4eIVgAdVYBgDKQjggspYEPQCAS4jOFOYXqTKeBVEJSms4lQDhnGWcsD/CglVN5CoR/buUL9C1AdgiWx4FueaHYCFaByZCCbBAJ10XLO4CcNxHqev+RxTGXALwSEEoPQB2pFLBgcaIJbIrDV9INbl/iZo/4qv7qvxq9XXfLVAcaH6wUZjA+uf1t+tty5bTXL2Y24Hrvu7X5AB0ARQcWS+ArRPqiqikIp2M0qlp1dV1RPU1R6Qkx9L9w0JWMqThAckNKU9S3pEQmLq08SHhlTlCcWCPcYOzp9iSXz2b6vkUddjTgfsx1nggdgzo2/QNPZW/LngQyQGHYw7O+bm8FflyZBFqxOROPhg0jmazuDs9OD8bJeyi8Sdg2vk7TjbQdcLwsxhQhAwvUN5RNyS5S5bstKmtGaTR/F25mmeomEPaLnEZf6z0hJw+MXmKSt2u2wenG+1SF1qlnw8aute27RVFqlnHVedck9TLNNCSppOWKcsMU/Z8p4Vq0WOiVowoXGKISJiNo2JHLoYU7H4x8AkVxiTdB5OnJiVKEj8mze8JCRmZRkFL2WjSHyikNU0KTO+8sRERZl4orKSDlOUExMri/dAPac7PuP0rXZFp1Pab51etl1HkB3y5BnHxXhJji4vj5YlCYwITI6WaALOOa5fDy1mQQ5u+vgfPMgRqRtjoVpI+sM+1NE5Jq7E+H7mucJzeIswE71Gbr8OtrMLtpMigmfWC8Prk65dpt/ly+bSJ2L5HWs33Ipz+zbS2nec9UDnqVeqtx0jP7q4PXaQu9sXpxXrN3HPWzTxtaDXV3B/SaqFZfqiovvZH18Jol1Jy27QCwr6QKsDMuW//ebm38k4J5L7kPcz7/bUnU15hjH/OXMG3qt6/aKl/0wr7gwQ6O2W8AKTrMHP+aCnvJE2M0B7YUlLsIShqvSsKXwH9HSRQ64JZeZekAWiIdDofsVlklM0BYuJO4vIVhxmVFUeB3inBAe8aUcy3mtD876gHXOxr0idWqXBfc0SlSjTolqBRoHwQ4AKRmOCiQZ8uOjh3Xy9ql20nIypSgJzkwq0O23Q0KJqjgT9P4T/kg0AAA==') format('woff2'),
+       url('iconfont.woff?t=1726510510805') format('woff'),
+       url('iconfont.ttf?t=1726510510805') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gengduo:before {
+  content: "\e603";
+}
+
+.icon-guanzhu:before {
+  content: "\e660";
+}
+
+.icon-fabu:before {
+  content: "\e615";
+}
+
+.icon-shouye-shouye:before {
+  content: "\e618";
+}
+
+.icon-radio-off:before {
+  content: "\e600";
+}
+
