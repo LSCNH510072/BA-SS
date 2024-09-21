@@ -38,15 +38,39 @@
         <span>通知</span>
       </button>
     </menu>
-    <div class="content"></div>
+    <div class="content">
+
+      <div class="content-blog">
+        <div class="information">
+          
+          <div class="avatar">
+            <img src="" alt="用户头像" />
+          </div>
+          
+          <div class="P-Info">
+            <h1 class="name">基沃托斯热心市民</h1>
+            <p class="time">24-08-25 11:00:00</p>
+            <p class="address">来自 基沃托斯</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="content-blog"></div>
+      
+    </div>
     <div></div>
     <script>
       const menu = document.getElementById("menu");
 
       menu.onclick = function (e) {
-        if (!e.target.classList.contains("active") && !e.target.classList.contains("menu")) {
+        if (
+          !e.target.classList.contains("active") &&
+          !e.target.classList.contains("menu")
+        ) {
           function removeClass() {
-            menu.querySelectorAll("button").forEach((item) => item.classList.remove("active"));
+            menu
+              .querySelectorAll("button")
+              .forEach((item) => item.classList.remove("active"));
           }
 
           removeClass();
